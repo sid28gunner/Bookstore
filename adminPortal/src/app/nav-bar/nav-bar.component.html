@@ -1,0 +1,10 @@
+<md-toolbar class="mat-primary">
+  <h2 [style.color]="'Black'">ADMIN PORTAL</h2>
+    <span class="nav-right"></span>
+  <span [hidden]="!loggedin"><button md-button >View Book</button></span>
+  <span [hidden]="!loggedin"><button md-button >Add Book</button></span>
+ <span [hidden]="!loggedin"><button md-button >Log Out</button></span>
+</md-toolbar>
+
+<button md-button class="mat-primary" (click)="onClick()">View Book</button>
+
